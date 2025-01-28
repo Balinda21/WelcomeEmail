@@ -9,7 +9,10 @@
         /* Reset styles */
         body, table, td, div, p, a { margin: 0; padding: 0; }
         body { width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-        
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
         /* Responsive styles */
         @media screen and (max-width: 600px) {
             .main-table {
